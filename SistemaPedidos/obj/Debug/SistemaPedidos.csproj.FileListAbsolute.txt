@@ -1,0 +1,56 @@
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe.config
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.pdb
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.csprojResolveAssemblyReference.cache
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Inicio.resources
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Properties.Resources.resources
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistaPrincipal.resources
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.csproj.GenerateResource.Cache
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.exe
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.pdb
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientes.resources
+c:\users\evercripsmsi\documents\visual studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVer.resources
+C:\Users\EverCripsMSI\Documents\Visual Studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesRegistrar.resources
+C:\Users\EverCripsMSI\Documents\Visual Studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVerModificar.resources
+C:\Users\EverCripsMSI\Documents\Visual Studio 2012\Projects\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVerModificarAnexarDireccion.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe.config
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.exe
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.pdb
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.pdb
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.csprojResolveAssemblyReference.cache
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Inicio.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Properties.Resources.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistaPrincipal.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientes.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesRegistrar.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVer.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVerModificar.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVerModificarAnexarDireccion.resources
+E:\2 SEMESTRE TRABAJOS\PROYECTO PRODUCTOS Y ENCARGO KARIN\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.csproj.GenerateResource.Cache
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe.config
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.exe
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.pdb
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.pdb
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.csprojResolveAssemblyReference.cache
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Inicio.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.Properties.Resources.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistaPrincipal.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientes.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesRegistrar.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVer.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVerModificar.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasCliente.PrincipalClientesVerModificarAnexarDireccion.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.csproj.GenerateResource.Cache
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasPedidos.PrincipalProductos.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasPedidos.PrincipalProductosRegistrar.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasPedidos.PrincipalProductosVer.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasPedidos.PrincipalProductosVerModificar.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasProductos.PrincipalPedidos.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasProductos.PrincipalPedidosRegistrar.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasProductos.PrincipalPedidosSeleccionarCliente.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasProductos.PrincipalPedidosSeleccionarProducto.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasPedidos.PrincipalPedidosVer.resources
+C:\Users\EverCripsMSI\Desktop\SistemaPedidos\SistemaPedidos\obj\Debug\SistemaPedidos.VistasPedidos.PrincipalPedidosVerPedidos.resources
+C:\Users\MSI-EverCrips\Desktop\SistemaPedidos\SistemaPedidos\bin\Debug\SistemaPedidos.exe.config

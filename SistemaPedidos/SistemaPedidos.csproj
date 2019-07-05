@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E55A3686-44E8-4556-B1C2-284670B968FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaPedidos</RootNamespace>
+    <AssemblyName>SistemaPedidos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClasesSQL\ClaseClientes.cs" />
+    <Compile Include="ClasesSQL\ClasePedidos.cs" />
+    <Compile Include="ClasesSQL\ClaseProductos.cs" />
+    <Compile Include="ClasesSQL\Conexion.cs" />
+    <Compile Include="ClasesSQL\ConsultasGenerales.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PedidosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PedidosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VistaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaPrincipal.Designer.cs">
+      <DependentUpon>VistaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientes.Designer.cs">
+      <DependentUpon>PrincipalClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesRegistrar.Designer.cs">
+      <DependentUpon>PrincipalClientesRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesVer.Designer.cs">
+      <DependentUpon>PrincipalClientesVer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesVerModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesVerModificar.Designer.cs">
+      <DependentUpon>PrincipalClientesVerModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesVerModificarAnexarDireccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasCliente\PrincipalClientesVerModificarAnexarDireccion.Designer.cs">
+      <DependentUpon>PrincipalClientesVerModificarAnexarDireccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosVer.Designer.cs">
+      <DependentUpon>PrincipalPedidosVer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosVerPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosVerPedidos.Designer.cs">
+      <DependentUpon>PrincipalPedidosVerPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductos.Designer.cs">
+      <DependentUpon>PrincipalProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductosRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductosRegistrar.Designer.cs">
+      <DependentUpon>PrincipalProductosRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductosVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductosVer.Designer.cs">
+      <DependentUpon>PrincipalProductosVer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductosVerModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasProductos\PrincipalProductosVerModificar.Designer.cs">
+      <DependentUpon>PrincipalProductosVerModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidos.Designer.cs">
+      <DependentUpon>PrincipalPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosRegistrar.Designer.cs">
+      <DependentUpon>PrincipalPedidosRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosSeleccionarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosSeleccionarCliente.Designer.cs">
+      <DependentUpon>PrincipalPedidosSeleccionarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosSeleccionarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistasPedidos\PrincipalPedidosSeleccionarProducto.Designer.cs">
+      <DependentUpon>PrincipalPedidosSeleccionarProducto.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VistaPrincipal.resx">
+      <DependentUpon>VistaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasCliente\PrincipalClientes.resx">
+      <DependentUpon>PrincipalClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasCliente\PrincipalClientesRegistrar.resx">
+      <DependentUpon>PrincipalClientesRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasCliente\PrincipalClientesVer.resx">
+      <DependentUpon>PrincipalClientesVer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasCliente\PrincipalClientesVerModificar.resx">
+      <DependentUpon>PrincipalClientesVerModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasCliente\PrincipalClientesVerModificarAnexarDireccion.resx">
+      <DependentUpon>PrincipalClientesVerModificarAnexarDireccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasPedidos\PrincipalPedidosVer.resx">
+      <DependentUpon>PrincipalPedidosVer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasPedidos\PrincipalPedidosVerPedidos.resx">
+      <DependentUpon>PrincipalPedidosVerPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasProductos\PrincipalProductos.resx">
+      <DependentUpon>PrincipalProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasProductos\PrincipalProductosRegistrar.resx">
+      <DependentUpon>PrincipalProductosRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasProductos\PrincipalProductosVer.resx">
+      <DependentUpon>PrincipalProductosVer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasProductos\PrincipalProductosVerModificar.resx">
+      <DependentUpon>PrincipalProductosVerModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasPedidos\PrincipalPedidos.resx">
+      <DependentUpon>PrincipalPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasPedidos\PrincipalPedidosRegistrar.resx">
+      <DependentUpon>PrincipalPedidosRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasPedidos\PrincipalPedidosSeleccionarCliente.resx">
+      <DependentUpon>PrincipalPedidosSeleccionarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VistasPedidos\PrincipalPedidosSeleccionarProducto.resx">
+      <DependentUpon>PrincipalPedidosSeleccionarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="PedidosDataSet.xsc">
+      <DependentUpon>PedidosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PedidosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PedidosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PedidosDataSet.xss">
+      <DependentUpon>PedidosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\MENU PRODUCTOS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\INICIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\SALIR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\ENTRAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\BOTON CLIENTE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\BOTON PRODUCTOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\BOTON PEDIDO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\VOLVER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\MENU PRINCIPAL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\CIRCULO AGREGAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\CIRCULO VISUALIZAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\MENU CLIENTE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\MENU CLIENTE VER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\CIRCULO LIMPIAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\CIRCULO ACEPTAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\FORMULARIO REGISTRO CLIENTE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\CIRCULO ELIMINAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\CIRCULO NUEVO DIRECCION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\FORMULARIO MODIFICAR CLIENTE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\FORMULARIO NUEVA DIRECCION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\FORMULARIO REGISTRO PRODUCTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\REGISTRO PRODUCTOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\FORMULARIO MODIFICAR PRODUCTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\CIRUCULO SOLO AGREGAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\MENU PEDIDOS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\FACTURA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\LOGO invictus CON FONDO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\REGISTRO PEDIDOS CLIENTE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\REGISTRO PEDIDOS PRODUCTOS.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
